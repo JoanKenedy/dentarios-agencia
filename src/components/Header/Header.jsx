@@ -21,7 +21,7 @@ export const Header = () => {
     {
       id: 3,
       name: "Academy",
-      link: "#historia",
+      link: "https://academy.dentarios.com.mx/",
     },
     {
       id: 5,
