@@ -1,7 +1,7 @@
-import Paquete1 from "../../assets/images/promos/banners-paquete-google.png";
-import Paquete2 from "../../assets/images/promos/banners-paquete-premium.png";
-import Paquete3 from "../../assets/images/promos/banners-paquete-platino.png";
-import Paquete4 from "../../assets/images/promos/banners-paquete-diamante.png";
+import Paquete1 from "../../assets/images/promos/promo-feb-1.png";
+import Paquete2 from "../../assets/images/promos/promo-feb-2.png";
+import Paquete3 from "../../assets/images/promos/promo-feb-3.png";
+import Paquete4 from "../../assets/images/promos/promo-feb-4.png";
 
 export const PromoSection = () => {
   const PLANS = [
@@ -84,6 +84,30 @@ export const PromoSection = () => {
         >
           <img
             src={Paquete2}
+            alt="Banner del paquete Premium"
+            className="w-full transition hover:scale-105"
+          />
+        </a>
+        <a
+          title="Solicitar más información"
+          href="https://api.whatsapp.com/send?phone=525575791467"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={Paquete3}
+            alt="Banner del paquete Premium"
+            className="w-full transition hover:scale-105"
+          />
+        </a>
+        <a
+          title="Solicitar más información"
+          href="https://api.whatsapp.com/send?phone=525575791467"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={Paquete4}
             alt="Banner del paquete Premium"
             className="w-full transition hover:scale-105"
           />
